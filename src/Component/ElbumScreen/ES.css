@@ -1,0 +1,129 @@
+.e1 {
+    width: 95%;
+    height: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+
+}
+
+.e2 {
+    display: flex;
+    color: #f0f0f0;
+    gap: 20px;
+}
+
+.e2 img {
+    width: 180px;
+}
+
+.e2 h2 {
+    font-size: 30px;
+}
+
+.e2 h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.e2 p {
+    margin-top: 10px;
+}
+
+.boh img {
+    width: 20px;
+    position: relative;
+    top: 0.3rem;
+}
+
+.e3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    /* pl-2 */
+    color: #f0f0f0;
+ 
+   align-items: center;
+   justify-content: center;
+}
+
+.e3 img {
+    width: 20px;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+
+
+.e4 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+  
+}
+
+.e4 img {
+    width: 50px;
+}
+
+.e5 {
+   
+    height: 300px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Enable vertical scrolling if the content overflows */
+    padding: 10px; /* Optional: Add padding to the container */
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+  }
+  #sp{
+    margin-top: 10px;
+  }
+
+  #sp p{
+    font-weight: bolder;
+    display: inline-flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  #sp .top{
+    position: relative;
+    left: 7rem;
+  }
+
+  .hi{
+    height: 0.009rem;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+
+  #sps p{
+    font-weight: bolder;
+    display: inline-flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  #sps:hover {
+    background-color: #f0f0f050; /* Change background color on hover */
+  }
+  
+
+  /* Customize scrollbar for .e5 container */
+.e5::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .e5::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Color of the scroll area */
+    border-radius: 4px;
+  }
+  
+  .e5::-webkit-scrollbar-thumb {
+    background: #555;/* Color of the scroll thumb */
+    border-radius: 4px; /* Optional: Rounded corners for the scroll thumb */
+  }
+  
+  

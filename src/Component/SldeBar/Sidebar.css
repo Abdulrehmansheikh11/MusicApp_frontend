@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.sidenav {
+    width: 25%;
+    height: 100%;
+}
+
+.div2{
+    display: flex;
+    align-items: center;
+   margin-left: 10px;
+}
+
+.div2 img{
+width: 25px;
+height: 25px;
+margin-top: 10px;
+}
+
+.div2 p{
+    color: #f0f0f0;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.main-div2{
+    background-color: rgba(255, 255, 255, 0.176); /* White with 50% opacity */
+    width: 95%;
+    margin: 0 auto;
+    height: 20%;
+}
+
+.main-div21{
+    display: flex;
+    justify-content: space-between;
+}
+.divWWE{
+    background-color: rgba(255, 255, 255, 0.176); /* White with 50% opacity */
+    width: 95%;
+    height: 78.7%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.div21{
+    padding: 10px;
+}
+.div21 img{
+width: 20px;
+margin-left: 10px;
+}
+.div21 p{
+    background-color: aqua;
+}
+
+.banner{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 15px;
+   height: 15vh;
+   padding: 15px;
+   color: #f0f0f0;
+}
+
+.banner h1{
+  font-size: 20px;
+  margin: 0;
+}
+
+.banner p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    border: none;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f0f0f0;/* White with 50% opacity */
+    color: black;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
